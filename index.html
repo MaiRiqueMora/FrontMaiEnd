@@ -3,35 +3,138 @@
 <head>
   <meta charset="UTF-8">
   <title>Currículum de Maite Riquelme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./photo/photo.jpg" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Estilos personalizados -->
   <style>
-    body { font-family: Arial; margin: 2em; background: #f4f4f4; }
-    .cv { background: white; padding: 2em; border-radius: 10px; max-width: 800px; margin: auto; }
-    h1 { color: #333; }
+    body { font-family: Arial, sans-serif; background: #f4f4f4; }
+    .cv { background: white; padding: 2em; border-radius: 10px; margin: 2em auto; max-width: 1000px; }
+    h1, h2 { color: #333; }
+    footer { margin-top: 2em; padding: 1em 0; background: #0066cc; color: white; text-align: center; }
+    /* Ensure all elements with border class have a pink border */
+    .border { border: 2px solid #f5abd9 !important; }
   </style>
 </head>
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  </head>  
+
+<style>
+  body {
+    background-color: #fdb1ea;
+  }
+</style>
+
 <body>
-  <div class="cv">
-    <h1>Maite Riquelme Morales</h1>
-    <p><strong>Email:</strong> maidgafriquemora@gmail.com</p>
-    <p><strong>Perfil:</strong> Estudiante Analista programacion</p>
-    <p><strong>Telefono:</strong>976041089</p>
 
-    <h2>Experiencia</h2>
-    <ul>
-      <li><strong></strong></li>
-      <li><strong></li>
-    </ul>
+  <!-- Container principal -->
+  <div class="container cv">
+    
+    <!-- Título -->  
+    <div class="container border rounded p-4 mb-4 shadow-sm bg-white" style="border: 2px solid #f5abd9;">
+      <div class="row align-items-center mb-4">
+        <div class="col-md-3 text-center">
+          <img src="./photo/photo.jpg" class="img-thumbnail" alt="Foto de Maite Riquelme" width="180" style="border: 2px solid #f5abd9;">
+        </div>
+        <div class="col-md-9">
+          <h1 class="mb-0" style="color:#ec73be;">Maite Riquelme Morales</h1>
+          <h4 class="text-muted">Estudiante Analista Programador</h4>
+        </div>
+      </div>
+    </div> 
 
-    <h2>Educación</h2>
-    <ul>
-      <li>Colegio Mariano Latorre, Villarrica</li>
-      <li>Liceo Bicentenario Hoteleria y Turismo, Pucon</li>
-      <li>Inacap, Temuco</li>
-    </ul>
+    <!-- Container principal -->
+    <div class="container border rounded p-4 mb-4 shadow-sm bg-white" style="border: 2px solid #f5abd9;">
+      <div class="container">
+        <div class="row">
+    
+          <!-- Columna izquierda: Información personal -->
+          <div class="col-md-4">
+            <div class="border rounded p-4 mb-4 shadow-sm bg-white" style="border: 2px solid #f5abd9;">
+              <h4 style="color:#ec73be;">Descripción Personal</h4>
+              <p>Estudiante de analista en programacion, capaz de enfrentar diversos desafios de esta carrera y que con el paso del tiempo ha logrado descubrir nuevas habilidades. Me gusta aprender sobre diversos temas que no son necesariamente de lo que estudio, disfruto de patinar, bailar, comer, hacer trapecio y lira. </p>
+              <h4 style="color:#ec73be;">Información personal</h4>
+              <ul class="list-unstyled">
+                <li><strong>Nombre:</strong> Maite Riquelme Morales</li>
+                <li><strong>Edad:</strong> 25 años</li>
+                <li><strong>Fecha de nacimiento:</strong> 15 junio 1999</li>
+                <li><strong>Rut:</strong> 22.233.871-9</li>
+                <li><strong>Nacionalidad:</strong> Chilena</li>
+                <li><strong>Estado civil:</strong> Soltera</li>
+              </ul>
+            </div>
+          </div>
 
-  </div>
+          <!-- Columna derecha: Todo el resto -->
+          <div class="col-md-8">
+            <!-- Experiencia --> 
+            <div class="container border rounded p-4 mb-4 shadow-sm bg-white" style="border: 2px solid #f5abd9;">
+              <div class="container mb-4">
+                <h2 style="color:#ec73be;">Experiencia Laboral</h2>
+                <ul>
+                  <li><strong> Administración y atención a público, Municipalidad de Pucon(2020)</strong></li>
+                  <li><strong> Reponedora Supermercado, Líder(2021)</strong></li>
+                  <li><strong> Cajera en restorán, El Fogón(2022)</strong></li>
+                  <li><strong> Cajera Peaje, Ruta 5 sur, Quepe(2022)</strong></li>
+                  <li><strong> Vendedora chocolatería, Café de la P(2023)</strong></li>
+                  <li><strong> Atención a público, Ecoparque(2024)</strong></li>
+                  <li><strong> Ayudante de barra, Pergamino(2024)</strong></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Antecedentes Academicos -->
+            <div class="container border rounded p-4 mb-4 shadow-sm bg-white" style="border: 2px solid #f5abd9;">
+              <div class="container mb-4">
+                <h2 style="color:#ec73be;">Antecedentes Academicos</h2>
+                <ul>
+                  <li>Colegio Mariano Latorre, Villarrica</li>
+                  <li>Liceo Bicentenario Hotelería y Turismo, Pucón</li>
+                  <li>INACAP, Temuco</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Otros estudios o certificados -->
+            <div class="container border rounded p-4 mb-4 shadow-sm bg-white" style="border: 2px solid #f5abd9;">
+              <div class="container mb-4">
+                <h2 style="color:#ec73be;">Otros estudios o certificados</h2>
+                <ul>
+                  <li>Tecnico en gastronomia</li>
+                  <li>DELF (Certificado de habla Francesa)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contacto -->
+    <div class="container border rounded p-4 mb-4 shadow-sm bg-white" style="border: 2px solid #f5abd9;">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <p><i class="bi bi-envelope" style="color:#ec73be;"></i> maidgafriquemora@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <p><i class="bi bi-phone" style="color:#ec73be;"></i> +569 9876 5432</p>
+          </div>
+          <div class="col-md-4">
+            <p><i class="bi bi-geo-alt" style="color:#ec73be;"></i> Madrid, Calle N° 860, Temuco</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Pie de página -->
+  <footer style="background-color: #cf4ab9;">
+    © 2025 Maite Riquelme
+  </footer>
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
 </body>
 </html>
